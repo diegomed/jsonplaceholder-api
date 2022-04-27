@@ -1,5 +1,54 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  border: 2px solid lightgray;
+  width: 80%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 50%;
+  margin: 1%;
+}
+
+.form textarea {
+  width: 50%;
+  margin: 1%;
+}
+
+.form button {
+  margin: 1%;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.posts {
+  border: 2px solid lightgray;
+  width: 80%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts button {
+  margin: 1%;
 }
 
 .App-logo {
